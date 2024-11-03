@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Classical Dancer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Great+Vibes&family=Poppins:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background Image Containers -->
+    <div id="bg1" class="background-image"></div>
+    <div id="bg2" class="background-image"></div>
+    <div id="bg3" class="background-image"></div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to My Dance Portfolio</h1>
+            <p>I am Aritrika Mukherjee, a dedicated practitioner of Indian classical dance, specializing in the timeless and expressive art of Bharatanatyam. My journey into this intricate world began at a young age, nurtured by the teachings of esteemed gurus and a deep-rooted passion for this cultural heritage. With each performance, I strive to bring forth the profound stories, emotions, and rhythms that are intrinsic to our traditional dance forms. My portfolio is a reflection of my devotion to preserving and celebrating the elegance and depth of Indian classical dance, and I invite you to explore it to witness the grace, discipline, and artistry that define my work.</p>
+            <button onclick="scrollToSection('#portfolio')">Explore My Work</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I have been performing and teaching Bharatanatyam for over a decade. My training in this classical Indian dance form has allowed me to explore its rich traditions and expressive techniques. Bharatanatyam is not just a form of art for me; it is a profound way to express my emotions and connect with my audience, bringing stories and rhythms to life through movement.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>My Portfolio</h2>
+        <div class="slider">
+            <div class="slides">
+                <img src="./images/pic3.jpg" alt="Dance Image 1" />
+                <img src="./images/pic1.jpg" alt="Dance Image 2" />
+                <img src="./images/pic2.jpg" alt="Dance Image 3" />
+            </div>
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+        <section id="gallery">
+            <div class="portfolio-gallery">
+                <h3>Gallery of Performances</h3>
+                <div class="gallery-grid">
+                    <img src="./images/g_img4.jpg" alt="Gallery Image 1" />
+                    <img src="./images/g_Img1.jpg" alt="Gallery Image 2" />
+                    <img src="./images/g_img2.jpg" alt="Gallery Image 3" />
+                    <img src="./images/g_img3.jpg" alt="Gallery Image 4" />
+                    <img src="./images/g_img5.jpg" alt="Gallery Image 5" />
+                    <img src="./images/g_img6.jpg" alt="Gallery Image 6" />
+                </div>
+            </div>
+        </section>
+        
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect or have any inquiries, feel free to reach out!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Media Section -->
+<div class="social-media-section">
+    <h2>Follow Me</h2>
+    <div class="social-icons">
+        <a class="social-icon" href="https://www.facebook.com/profile.php?id=100085057471696"><img src="./images/icons8-facebook-100.png" alt="Facebook"></a>
+        <a class="social-icon" href="https://www.instagram.com/_miss.mukherjee._/"><img src="./images/icons8-instagram-100.png" alt="Instagram"></a>
+        <a class="social-icon" href="https://www.youtube.com/channel/UCh_FwU2kdPbJr8kGPcPjIxA"><img src="./images/icons8-youtube-100.png" alt="YouTube"></a>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Aritrika Mukherjee. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
